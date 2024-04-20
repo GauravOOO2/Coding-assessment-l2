@@ -62,13 +62,13 @@ a:active {
 }
 
 .tabs{
-  padding-left: 13rem;
+  /* padding-left: 13rem; */
   height: 3.5rem;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr)); 
 }
 .tab-button{
-  grid-column: span 3;
+  grid-column: span 4;
 }
 /* Select the button with the label "Men" */
 .tabs .tab-button[data-category='men'] {
@@ -157,6 +157,7 @@ a:active {
     height: 45px;
     border-radius: 8px;
     width: 13rem;
+    cursor: pointer;
 }
 .buttonContainer p {
   padding-top: 10px;
