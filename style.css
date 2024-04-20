@@ -62,7 +62,6 @@ a:active {
 }
 
 .tabs{
-  /* padding-left: 13rem; */
   height: 3.5rem;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr)); 
