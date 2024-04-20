@@ -54,20 +54,31 @@ a:active {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  font-family: "Inter", sans-serif;
+
 }
 
 
 .headingTag{
   text-align: center;
+  font-family: "Inter", sans-serif;
 }
 
 .tabs{
   height: 3.5rem;
   display: grid;
   grid-template-columns: repeat(12, minmax(0, 1fr)); 
+  /* font-family: "Inter", sans-serif; */
+
 }
 .tab-button{
   grid-column: span 4;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+
+
+
 }
 /* Select the button with the label "Men" */
 .tabs .tab-button[data-category='men'] {
