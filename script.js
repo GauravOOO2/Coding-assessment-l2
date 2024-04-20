@@ -1,4 +1,5 @@
 
+
 const productsContainer = document.querySelector('.products-container');
 const tabButtons = document.querySelectorAll('.tab-button');
 
@@ -51,4 +52,5 @@ function displayProducts(data, category){
             }
         })
     })
+
 }
