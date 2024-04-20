@@ -1,21 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
 html,
 body {
   height: 100%;
   width: 100%;
   margin: 0;
 }
+
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right bottom, #873572, black);
 }
+
 a {
   display: inline-block;
   color: lightgrey;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "inter";
   white-space: nowrap;
   padding: 12px;
   border: 1px solid white;
@@ -30,7 +31,141 @@ a:hover {
   transform: scale(1.03);
   text-decoration: none;
 }
+
 a:active {
   transform: scale(0.98);
 }
 
+.tabs {
+  
+  display: flex;
+  justify-content: space-around;
+}
+
+.tab-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+.headingTag{
+  text-align: center;
+}
+
+.tabs{
+  padding-left: 13rem;
+  height: 3.5rem;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr)); 
+}
+.tab-button{
+  grid-column: span 3;
+}
+/* Select the button with the label "Men" */
+.tabs .tab-button[data-category='men'] {
+  /* Set the initial background and text color */
+  background-color: rgb(237, 237, 237);
+  color: black;
+  /* On click, keep the background and text color changed */
+  &:active, &:focus {
+    background-color: black;
+    color: white;
+  }
+}
+
+/* Select the button with the label "women" */
+.tabs .tab-button[data-category='women'] {
+  /* Set the initial background and text color */
+  background-color: rgb(237, 237, 237);
+  color: black;
+  /* On click, keep the background and text color changed */
+  &:active, &:focus {
+    background-color: black;
+    color: white;
+  }
+}
+
+/* Select the button with the label "kids" */
+.tabs .tab-button[data-category='kids'] {
+  /* Set the initial background and text color */
+  background-color: rgb(237, 237, 237);
+  color: black;
+  /* On click, keep the background and text color changed */
+  &:active, &:focus {
+    background-color: black;
+    color: white;
+  }
+}
+
+.products-container{
+  width: 100%;
+  justify-content: space-around;
+}
+.cardImage{
+  height: 15rem;
+  width: 12rem;
+  border-radius: 13px;
+  margin: 5px;
+
+}
+.cardHeading{
+  display: flex;
+  /* justify-content: space-around; */
+}
+
+.ptitle {
+  font-weight: bold;
+  width: 115px; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cardSubHeading{
+  margin-left: 6px;
+}
+.priceContainer{
+  display:  flex;
+  padding-left: 15px;
+}
+
+.priceContainer p:first-child {
+ font-weight: bold;
+}
+.priceContainer p:nth-child(2) {
+  color: gray;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+.priceContainer p:nth-child(3) {
+  color: red;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.buttonContainer{
+  background: black;
+    color: white;
+    height: 45px;
+    border-radius: 8px;
+    width: 13rem;
+}
+.buttonContainer p {
+  padding-top: 10px;
+  text-align: center;
+}
+.cardContainer{
+  width: 15rem;
+  height: 30rem;
+  margin:5px;
+}
+.container{
+  width: 80%;
+}
