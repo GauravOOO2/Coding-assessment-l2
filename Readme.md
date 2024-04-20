@@ -28,19 +28,6 @@ Go to the project directory
   cd Coding-assessment-l2
 ```
 
-Install dependencies
-
-```bash
-  npm install
-```
-Run Frontend
-
-
-```bash
-  npm install
-  npm start
-```
-
 
 ## Deployment
 
