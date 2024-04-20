@@ -49,4 +49,36 @@ I have deployed the porject using GitHub Pages
 - Grid 
 - Async Await 
 - Fetch
-- Arrow Functions 
+- Arrow Functions
+
+
+
+
+
+
+
+
+
+
+
+
+## Screenshots
+
+Kid's Section
+
+![Kids Section](https://gauravooo2.github.io/Gaurav_portfolio/assets/img/Assessment1.png)
+
+Men's Section
+
+![Men's Section](https://gauravooo2.github.io/Gaurav_portfolio/assets/img/Assessment2.png)
+
+Men's Section
+
+![Women's Section](https://gauravooo2.github.io/Gaurav_portfolio/assets/img/Assessment2.png)
+
+
+
+
+
+
+
