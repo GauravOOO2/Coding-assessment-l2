@@ -1,21 +1,24 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
 html,
 body {
   height: 100%;
   width: 100%;
   margin: 0;
 }
+
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
-  background: linear-gradient(to right bottom, #873572, black);
+  /* align-items: center; */
+  /* background: linear-gradient(to right bottom, #873572, black); */
 }
+
 a {
   display: inline-block;
   color: lightgrey;
   font-size: 16px;
-  font-family: "Roboto", sans-serif;
+  font-family: "inter";
   white-space: nowrap;
   padding: 12px;
   border: 1px solid white;
@@ -30,7 +33,38 @@ a:hover {
   transform: scale(1.03);
   text-decoration: none;
 }
+
 a:active {
   transform: scale(0.98);
 }
 
+
+
+
+@font-face {
+  font-family: 'FAMILY_NAME';
+  src: url(FONT_FILE_NAME.woff2) format('woff2');
+}
+
+
+
+.imageContainer{
+  height: 10rem;
+}
+
+.imageContainer img{
+  height: inherit;
+}
+
+.switchingContainer{
+  display: flex;
+}
+
+
+.cardName{
+  display: flex;
+}
+
+.cardPricing{
+  display: flex;
+}
