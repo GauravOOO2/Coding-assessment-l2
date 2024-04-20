@@ -8,11 +8,6 @@ Constructed an E-Commerce platform to align precisely with the design like provi
 
 ## API Reference
 
-
-
-
-
-
  - [API for Products](https://cdn.shopify.com/s/files/1/0564/3685/0790/files/multiProduct.json)
 
 ## Clone the repository to execute it on your local machine.
@@ -53,6 +48,17 @@ I have deployed the porject using GitHub Pages
 
 
 
+
+
+## Code Snippets
+
+Fetch Data
+
+![Fetch Data](https://gauravooo2.github.io/Gaurav_portfolio/assets/img/image.png)
+
+DOM Manipulation
+
+![DOM Manipulation](https://gauravooo2.github.io/Gaurav_portfolio/assets/img/Dom%20Manuplation.png)
 
 
 
