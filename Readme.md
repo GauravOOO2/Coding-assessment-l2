@@ -78,11 +78,6 @@ Men's Section
 
 ![Men's Section](https://gauravooo2.github.io/Gaurav_portfolio/assets/img/Assessment2.png)
 
-Men's Section
-
-![Women's Section](https://gauravooo2.github.io/Gaurav_portfolio/assets/img/Assessment2.png)
-
-
 
 
 
