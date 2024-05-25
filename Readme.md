@@ -48,7 +48,7 @@ I have deployed the porject using GitHub Pages
 
 
 ## Figma Design
-- [Destgn](https://www.figma.com/file/lXrVC18Jpw7OBzKl8BMWc9/Category-tabs) 
+- [Design](https://www.figma.com/file/lXrVC18Jpw7OBzKl8BMWc9/Category-tabs) 
 
 
 
