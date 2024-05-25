@@ -47,6 +47,10 @@ I have deployed the porject using GitHub Pages
 - Arrow Functions
 
 
+## Figma Design
+- [Destgn](https://www.figma.com/file/lXrVC18Jpw7OBzKl8BMWc9/Category-tabs) 
+
+
 
 
 
